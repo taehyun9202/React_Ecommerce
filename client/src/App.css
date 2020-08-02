@@ -1,0 +1,189 @@
+.container{
+  padding: 100px;
+}
+.title{
+  font-family: Arial Black;
+}
+.head_left{
+  display: inline-block;
+  float: left;
+}
+.head_right{
+  display: inline-block;
+  float: right;
+}
+.head_center{
+  display: inline-block;
+  padding-left: 40px;
+  width: 60%;
+}
+.SignIn{
+  display: inline-block;
+}
+.searchIcon{
+  width: 30px;
+  position: relative;
+  margin-right: 10px;
+}
+.circled{
+  background-color: rgba(42, 42, 42, 1);
+  font-weight: bolder;
+  text-align: center; 
+  vertical-align: middle;
+  border-radius: 50%;
+  width:25px;
+  height: 25px;
+  z-index: 1;
+  color: #f2efe8;
+  position: absolute;
+  bottom: 20;
+  margin-left:26px;
+}
+.searchIconbt{
+  /* vertical-align: top; */
+  /* position: relative; */
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  z-index: 1;
+  float: right;
+  margin-top: -34px;
+}
+.signInButton{
+  border: none;
+  height: 105px;
+  margin-left: 20px;
+  border-radius: 5%;
+  background-color: #f2efe8;
+  min-width: 100px;
+}
+.user{
+  position: absolute;
+  right: -70px;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    padding: 50px;
+  }
+
+}
+@media only screen and (max-width: 1023px) {
+  .head_center{
+    position: relative;
+    display: inline;
+    top:10px;
+  }
+  .head_right{
+    position: absolute;
+    top: 50px;
+    right: 25px;
+  }
+  .hero{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 1215px) {
+
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+ 
+}
+.movielist{
+white-space: nowrap;
+overflow-x: visible;
+overflow-y: hidden;
+height: 250px; 
+
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: black;
+  color: #f2efe8;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  margin-left: -65px;
+  margin-top: 50px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip:hover .image {
+  opacity: 0.3;
+}
+
+.tooltip:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: #444444;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* rgba(42, 42, 42, 1); */
+/* category bar */
+.categorybar{
+  border: 1px solid lightgrey;
+  background-color:  #f2efe8;
+  margin-top: 54px;
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-bottom: -58px;
+}
+.categoriesText{
+  min-height: 30px;
+  padding-left: 10px;
+  font-family: Arial Black;
+  color: #f2efe8;
+  /* transform: translate3d(1.03); */
+}
+.categoriesText:hover{
+  border: 1px solid lightgrey;
+  background-color: #f2efe8;
+  color: rgba(42, 42, 42, 1);
+}
+
+.cateLeft{
+  width: 25%;
+  display: inline-block;
+  background-color: rgba(42, 42, 42, 1);
+  
+}
+.cateRight{
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px;
+  background-color: #f2efe8;
+}

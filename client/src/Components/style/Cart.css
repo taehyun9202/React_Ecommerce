@@ -1,0 +1,30 @@
+.cartLeft{
+    width: 65%;
+    display: inline-block;
+}
+.cartRight{
+    padding-top: 20px;
+    margin-left: 3%;
+    width: 32%;
+    vertical-align: top;
+    background-color: #f2efe8;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 1023px) {
+    .cartLeft{
+        width: 100%
+    }
+    .cartRight{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 1215px) {
+    
+}

@@ -1,0 +1,56 @@
+.container{
+    padding: 100px;
+}
+.info{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-left: 40px;
+}
+.quantity{
+    margin-left: 2px;
+    margin-right: 10%;
+    background-color: #f2efe8;
+    
+}
+.photo{
+    display:inline-block;
+    width:50%;
+}
+
+.AddCart{
+    padding-right: 10px;
+    width: 45%;
+    display: inline-block;
+}
+.BuyNow{
+    padding-left: 10px;
+    width: 45%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+@media only screen and (max-width: 1023px) {
+    .head_center{
+        display: inline;
+    }
+    .container{
+        padding: 50px;
+    }
+    .info{
+        display: block;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .photo{
+        margin-bottom: 50px;
+        display:block;
+        width: 100%;
+    }
+    
+ }
+@media only screen and (max-width: 1215px) {
+
+}
