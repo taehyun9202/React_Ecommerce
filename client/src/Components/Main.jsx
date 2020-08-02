@@ -38,7 +38,7 @@ const Main = props => {
             withCredentials: true
         })
         .then(res => 
-            setProducts(res.data)
+            setProducts(res.data.slice(0,5))
             // console.log(res.data.loggedIn)
         )
         .catch(err =>console.log(err));
